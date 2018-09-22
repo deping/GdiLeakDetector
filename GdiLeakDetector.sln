@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GdiLeakDetector", "GdiLeakDetector\GdiLeakDetector.vcxproj", "{CC729B52-F8C2-418D-B52F-F8E503BEC7D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GdiSpy", "GdiSpy\GdiSpy.vcxproj", "{6B1F0058-D6F8-4E91-8A13-6DEE42E2EFF3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "leak_example", "leak_example\leak_example.vcxproj", "{E9EC0887-318B-4281-8E6A-4F868DD31283}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC729B52-F8C2-418D-B52F-F8E503BEC7D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CC729B52-F8C2-418D-B52F-F8E503BEC7D5}.Debug|Win32.Build.0 = Debug|Win32
+		{CC729B52-F8C2-418D-B52F-F8E503BEC7D5}.Release|Win32.ActiveCfg = Release|Win32
+		{CC729B52-F8C2-418D-B52F-F8E503BEC7D5}.Release|Win32.Build.0 = Release|Win32
+		{6B1F0058-D6F8-4E91-8A13-6DEE42E2EFF3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6B1F0058-D6F8-4E91-8A13-6DEE42E2EFF3}.Debug|Win32.Build.0 = Debug|Win32
+		{6B1F0058-D6F8-4E91-8A13-6DEE42E2EFF3}.Release|Win32.ActiveCfg = Release|Win32
+		{6B1F0058-D6F8-4E91-8A13-6DEE42E2EFF3}.Release|Win32.Build.0 = Release|Win32
+		{E9EC0887-318B-4281-8E6A-4F868DD31283}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E9EC0887-318B-4281-8E6A-4F868DD31283}.Debug|Win32.Build.0 = Debug|Win32
+		{E9EC0887-318B-4281-8E6A-4F868DD31283}.Release|Win32.ActiveCfg = Release|Win32
+		{E9EC0887-318B-4281-8E6A-4F868DD31283}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {992DF0FB-95A6-40C2-8204-E895994E551B}
+	EndGlobalSection
+EndGlobal
